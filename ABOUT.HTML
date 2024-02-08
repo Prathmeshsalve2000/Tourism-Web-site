@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathmesh Tourism</title>
+    <link rel="icon" type="image" href="/Asset/Image/images website icon.jpeg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Common styles for A1 and A3 sections */
+        .A1, .A3 {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+        }
+
+        .A1 {
+            background-image: url(/Asset/Image/pexels-rachel-xiao-772429\ About\ 4k.jpg);
+        }
+
+        .A3 {
+            background-image: url(/Asset/Image/istockphoto-1337977426-170667a\ \ A3\ Backgroumd.webp);
+        }
+
+        nav {
+            display: flex;
+            padding: 0 3%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            width: 250px;
+            font-size: 24px;
+            font-style: italic;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            flex: 1;
+            text-align: right;
+        }
+
+        .nav-links ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+
+        .nav-links ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .nav-links ul li::after {
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #f44336;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+
+        .nav-links ul li:hover::after {
+            width: 100%;
+            cursor: pointer;
+        }
+
+        h1 {
+            color: #df9898;
+            padding-bottom: 20px;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        h3 {
+            font-size: 21px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 15px 12px;
+            position: relative;
+            font-size: 16px;
+        }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 768px) {
+            .A1, .A3 {
+                padding: 30px 0;
+            }
+
+            nav h1 {
+                width: auto;
+                font-size: 20px;
+            }
+
+            .nav-links ul li {
+                display: block;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .nav-links ul li::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="A1">
+        <section>
+            <nav>
+                <h1><a href="/INDEX.HTML">PRATHMESH TOURISM</a></h1>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="Asset\HOME.HTML">HOME</a></li>
+                        <li><a href="ABOUT.HTML">ABOUT</a></li>
+                        <li><a href="SERVICES.HTML">SERVICES</a></li>
+                        <li><a href="Asset\ENQUIRY.HTML">CONTACT</a></li>
+                        <li><a href="LOGIN.HTML">LOGIN</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <h1>ABOUT</h1>
+    </div>
+
+    <div class="A3">
+        <h3>Our Vision:</h3>
+        <p>At Prathmesh Travel, we envision a world where travel transcends boundaries, enriches lives, and creates enduring connections. Our vision is to inspire wanderlust, foster cultural understanding, and craft experiences that leave an indelible mark on the hearts of our travelers.</p>
+        <h3>Our Mission:</h3>
+        <p>Our mission is to be your trusted travel companion, offering a spectrum of services that cater to your unique desires. We aim to provide unparalleled experiences by combining meticulous planning, local insights, and personalized service, ensuring that your journey with Prathmesh Travel is nothing short of extraordinary.</p>
+        <h2>Why Choose Prathmesh Travel?</h2>
+        <ul>
+            <li><h4>1. Expertise:</h4> Our team comprises seasoned travel enthusiasts and industry experts dedicated to curating exceptional journeys.</li>
+            <li><h4>2. Personalized Service:</h4> Tailoring experiences to your preferences, we craft bespoke itineraries that reflect your dreams and aspirations.</li>
+            <li><h4>3. Global Network:</h4> With a vast network of partners and suppliers, we offer access to diverse destinations, from iconic landmarks to hidden gems.</li>
+            <li><h4>4. Quality Assurance:</h4> We uphold the highest standards in accommodations, transportation, and service to ensure your satisfaction.</li>
+        </ul>
+    </div>
+</body>
+</html>
